@@ -4,11 +4,13 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      {/*<Route component={Error} />*/}
-    </Routes>
+    <div className="cover-container text-center d-flex h-100 p-3 mx-auto flex-column">
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/*<Route component={Error} />*/}
+      </Routes>
+    </div>
   );
 }
 
