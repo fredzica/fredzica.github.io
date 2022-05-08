@@ -4,10 +4,10 @@ function App() {
       <header className="masthead mb-auto">
         <div className="inner">
           <nav className="nav nav-masthead justify-content-center">
-            <a className="nav-link active" href="#">
+            <a className="nav-link active" href="/">
               Home
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/about">
               About
             </a>
           </nav>
