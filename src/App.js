@@ -1,10 +1,10 @@
 function App() {
   return (
-    <div className="Cover-container text-center d-flex h-100 p-3 mx-auto flex-column">
+    <div className="cover-container text-center d-flex h-100 p-3 mx-auto flex-column">
       <header className="masthead mb-auto">
         <div className="inner">
-          <nav className="nav justify-content-center">
-            <a className="nav-link" href="#">
+          <nav className="nav nav-masthead justify-content-center">
+            <a className="nav-link active" href="#">
               Home
             </a>
             <a className="nav-link" href="#">
@@ -13,9 +13,9 @@ function App() {
           </nav>
         </div>
       </header>
-      <main role="main" className="inner cover">
+      <main role="main" className="cover">
         <h1>Frederico Zica</h1>
-        <p>Software engineer</p>
+        <p>Software Engineer</p>
         <a href="https://github.com/fredzica" class="fa fa-github"></a>
         <a
           href="https://www.linkedin.com/in/fredericozica/"
@@ -23,7 +23,7 @@ function App() {
         ></a>
       </main>
       <footer className="mastfoot mt-auto">
-        <div className="inner">
+        <div>
           <p>Thanks for visiting. Have a great day!</p>
         </div>
       </footer>
