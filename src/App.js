@@ -16,10 +16,15 @@ function App() {
       <main role="main" className="inner cover">
         <h1>Frederico Zica</h1>
         <p>Software engineer</p>
+        <a href="https://github.com/fredzica" class="fa fa-github"></a>
+        <a
+          href="https://www.linkedin.com/in/fredericozica/"
+          class="fa fa-linkedin"
+        ></a>
       </main>
-      <footer class="mastfoot mt-auto">
+      <footer className="mastfoot mt-auto">
         <div className="inner">
-          <p>This is the footer</p>
+          <p>Thanks for visiting. Have a great day!</p>
         </div>
       </footer>
     </div>
